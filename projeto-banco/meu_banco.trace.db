@@ -1,0 +1,54 @@
+2022-03-31 21:09:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-03-31 21:11:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:03:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:07:27 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:08:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:10:39 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:35:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:37:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:37:14 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:37:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:41:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:42:01 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+select * from pokemon [42102-199]
+2022-04-07 17:52:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" not found; SQL statement:
+INSERT INTO pokemon VALUES (1, 'oi', 'oi' [42102-199]
+2022-04-07 18:00:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INT0[*] POKEMON VALUES(NULL, ?, ?) "; expected "INTO"; SQL statement:
+INSERT INT0 pokemon VALUES(null, ?, ?) [42001-199]
+2022-04-07 18:05:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" already exists; SQL statement:
+CREATE TABLE pokemon(id INT PRIMARY KEY AUTO_INCREMENT,nome VARCHAR(255),tipo VARCHAR(255)) [42101-199]
+2022-04-07 18:06:04 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "POKEMON" already exists; SQL statement:
+CREATE TABLE pokemon(id INT PRIMARY KEY AUTO_INCREMENT,nome VARCHAR(255),tipo VARCHAR(255)) [42101-199]
+2022-04-07 18:06:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INT0[*] POKEMON VALUES(NULL, ?, ?) "; expected "INTO"; SQL statement:
+INSERT INT0 pokemon VALUES(null, ?, ?) [42001-199]
+2022-04-07 18:06:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "INSERT INT0[*] POKEMON VALUES(NULL, ?, ?) "; expected "INTO"; SQL statement:
+INSERT INT0 pokemon VALUES(null, ?, ?) [42001-199]
