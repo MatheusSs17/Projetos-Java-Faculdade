@@ -1,0 +1,6 @@
+2022-04-12 20:30:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "JOGO" already exists; SQL statement:
+CREATE TABLE jogo (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(200), genero VARCHAR(200) ); [42101-199]
+2022-04-12 20:31:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXIST[*] JOGO (ID INT NOT NULL PRIMARY KEY AUTO_INCREMENT, NOME VARCHAR(200), GENERO VARCHAR(200) );  "; expected "EXISTS"; SQL statement:
+CREATE TABLE IF NOT EXIST jogo (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT, nome VARCHAR(200), genero VARCHAR(200) );  [42001-199]
